@@ -1,8 +1,41 @@
 *
   box-sizing: border-box
 
-a
-  text-decoration: none
+
+* *::after,
+*::before 
+  box-sizing: border-box;
+
+/* ............................................................................. */
+html 
+  scroll-behavior: smooth;
+
+ul 
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+li 
+  padding-left: 0;
+
+a 
+  text-decoration: none;
+  color: inherit; /*что бы убрать приоритет у ссылки краситься в синий цвет*/
+
+p 
+  margin: 0;
+
+h1
+  margin: 0
+h2
+  margin: 0
+
+body
+  font-family: 'Montserrat', serif;
+
 
 .container
-  
+  border: solid 1px red
+  max-width: 375px;
+  padding: 0 10px;
+  margin: 0 auto;
